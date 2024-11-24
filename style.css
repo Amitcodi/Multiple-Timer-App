@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+  }
+  
+  #timer-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #timer-input label, #timer-input button {
+    margin: 0 10px;
+  }
+  
+  #active-timers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .timer-ended {
+    background-color: #ffcccc;
+  }
+  
+  button.stop-timer {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
